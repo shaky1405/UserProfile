@@ -1,0 +1,52 @@
+{
+  "Employees": [
+    {
+      "empName": "Md Shakib ",
+      "empCompany": "infosys",
+      "empSalary": "64000",
+      "id": "0c25"
+    },
+    {
+      "empName": "Md  Afroz",
+      "empCompany": "TCS",
+      "empSalary": "50000",
+      "id": "4605"
+    },
+    {
+      "id": "ac45",
+      "empName": "Aayush marwah",
+      "empCompany": "DataInfa",
+      "empSalary": "30000"
+    },
+    {
+      "empName": "Ahmad Fahad",
+      "empCompany": "Infosys",
+      "empSalary": "35000",
+      "id": "ccbc"
+    },
+    {
+      "empName": "Vismay Agarwal",
+      "empCompany": "TCS",
+      "empSalary": "47000",
+      "id": "57fb"
+    },
+    {
+      "id": "a6a4",
+      "empName": "Faizan khan",
+      "empCompany": "FK Designers",
+      "empSalary": "40000"
+    },
+    {
+      "empName": "Rukaiya Shamim",
+      "empCompany": "uber",
+      "empSalary": "150000",
+      "id": "2e29"
+    },
+    {
+      "empName": "Neem Savnur",
+      "empCompany": "Prestige Group",
+      "empSalary": "100000",
+      "id": "e206"
+    }
+  ]
+}

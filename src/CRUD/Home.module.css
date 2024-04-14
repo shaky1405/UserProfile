@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli',sans-serif;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(#095a79,#032d36);
+    border-bottom: 2px solid lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#myForm{
+    height: 86.5vh;
+    width: 100%;
+    background:linear-gradient(black,steelblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myForm>form{
+    height: 430px;
+    width: 370px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    background:linear-gradient(#095a79,#032d36);
+    padding: 35px 40px;
+    border-radius: 5px;
+    
+}
+#myForm>form>h1{
+color: white;
+text-align: center;
+margin-bottom: none;
+}
+
+#myForm>form>label{
+    height: 25px;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+}
+ 
+ #myForm>form>input{
+    background-color: transparent;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid lightblue;
+    padding: 2px;
+    font-size: 18px;
+    color: #fff;
+} 
+
+#myForm>form>:focus{
+    outline: 0;
+    border-bottom-color:lightblue ;
+}
+
+#myForm>form>button{
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-family: inherit;
+    font-weight:bolder;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: 'Muli', sans-serif;
+}
+
+#myForm>form>button:focus{
+    outline: 0;
+}
+#myForm>form>button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+
+
+#Euser{
+    height: 86.5vh;
+    width: 100%;
+    background:linear-gradient(black,steelblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Euser>form{
+    height: 430px;
+    width: 370px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    background:linear-gradient(#095a79,#032d36);
+    padding: 35px 40px;
+    border-radius: 5px;
+    
+}   
+#Euser>form>h1{
+    color: white;
+    text-align: center;
+    margin-bottom: none;
+ }
+ #Euser>form>label{
+    height: 25px;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+}
+ 
+ #Euser>form>input{
+    background-color: transparent;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid lightblue;
+    padding: 2px;
+    font-size: 18px;
+    color: #fff;
+} 
+
+#Euser>form>:focus{
+    outline: 0;
+    border-bottom-color:lightblue ;
+}
+
+#Euser>form>button{
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-family: inherit;
+    font-weight:bolder;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: 'Muli', sans-serif;
+}
+
+#Euser>form>button:focus{
+    outline: 0;
+}
+#Euser>form>button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+
+
+
+/* =========================user================ */
+#userpage{
+ height: 100%;
+ width: 100%;
+ background: linear-gradient(black ,steelblue);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+#userpage>div>h2{
+    text-align: center;
+
+ }
+#userpage>div{
+   height: 285px;
+   width: 255px;
+   color: white;
+   border: 1px solid white;
+   padding: 22px;
+   line-height: 15px;
+   letter-spacing: 0.8px;
+   margin: 30px;
+   background: linear-gradient(#095a79,#032d36);
+   border-radius: 10px;
+   box-shadow: 0 0 10px lightblue; 
+}
+
+#userpage>div>h5{
+    font-size:medium;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+#userpage>div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+#userpage>div>div>button{
+    width: 40%;
+    background: lightblue;
+    padding: 10px;
+    font-family: inherit;
+    font-weight:bolder;
+    font-size: 12px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Muli', sans-serif;
+    margin: 30px 10px;
+
+}
+
+#userpage>div>div>button>a{
+    text-decoration: none;
+    color: black;
+}
+
+#userpage>div>div>button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+
